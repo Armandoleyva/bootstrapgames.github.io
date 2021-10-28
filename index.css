@@ -1,0 +1,71 @@
+.text-armando{
+    color:#d83939 !important;
+}
+
+.btn-platzi{
+    background-color:#d83939 ;
+    color: white;
+}
+
+.btn-platzi:hover{
+    background-color:#740303 ;
+    color: white; 
+} 
+
+#header img{
+    
+    width: 60px;
+}
+
+#main .carousel-inner img{
+    max-height: 100vh;
+    object-fit: cover;
+    opacity: 70%;
+}
+
+#carousel {
+    /* el relative es para que se adapte al tamaño que sea de pantalla */
+    position: relative;
+}
+
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.519) ;
+    color: white;
+}
+
+
+
+#speakers .container .row img{
+    max-height: 30vh;
+    object-fit: contain; 
+   
+    }
+
+#place-time{
+    background-color: #343a40 ;
+    color: white;
+}
+
+
+#place-time img{
+    max-width: 100%;
+}
+
+
+
+
+#footer{
+    background: linear-gradient(90deg, #1c3643,#273b47,25%,#1e5372);
+
+}
+
+#footer a {
+    color: white;
+
+}
